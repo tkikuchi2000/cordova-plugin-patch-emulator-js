@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-patch-emulator-js" version="1.0.0">
+  <name>Patch emulator.js</name>
+  <description>Apply CB-14165 patch to emulator.js</description>
+  <author>tkikuchi2000@gmail.com</author>
+
+  <license>MIT</license>
+
+  <keywords>CB-14165 patch emulator.js</keywords>
+  <repo>https://github.com/tkikuchi2000/cordova-plugin-patch-emulator-js.git</repo>
+  <issue>https://github.com/tkikuchi2000/cordova-plugin-patch-emulator-js/issues</issue>
+
+
+  <engines>
+    <engine name="cordova" version=">=6.0.0" />
+  </engines>
+
+  <!-- ios -->
+  <hook src="scripts/patch_emulator_js.js" type="after_prepare" />
+
+</plugin>

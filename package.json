@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-patch-emulator-js",
+  "version": "1.0.0",
+  "description": "Overwrite patched emulator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-patch-emulator-js.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-patch-emulator-js",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova-android",
+    "CB-14165",
+    "emulator.js"
+  ],
+  "dependencies": {
+    "cordova-android": ">=7.0.0 <=7.1.1"
+  },
+  "devDependencies": {
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    }
+  ],
+  "author": "tkikuchi2000 <tkikuchi2000@gmail.com> (https://github.com/tkikuchi2000)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-patch-emulator-js/issues"
+  },
+  "homepage": "https://github.com/tkikuchi2000/cordova-plugin-patch-emulator-js#readme"
+}
